@@ -11,6 +11,6 @@ workbox.routing.registerRoute(
   workbox.strategies.networkFirst(),
 )
 workbox.routing.registerRoute(
-  'http://localhost:3000',
+  '/',
   workbox.strategies.networkFirst()
 )
